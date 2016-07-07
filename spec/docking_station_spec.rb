@@ -13,7 +13,7 @@ describe DockingStation do
 
   it 'docks a bike' do
     bike = Bike.new
-    20.times { subject.dock(bike) }
+    @capacity.times { subject.dock(bike) }
     #expect(subject.dock_bike(bike)).to eq bike
     expect { subject.dock(bike) }.to raise_error 'Docking station full'
   end
