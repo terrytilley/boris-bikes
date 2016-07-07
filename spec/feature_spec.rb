@@ -1,5 +1,5 @@
-require './lib/docking_station.rb'
-
-docking_station = DockingStation.new
-bike = Bike.new
-docking_station.dock(bike)
+# require './lib/docking_station.rb'
+#
+# docking_station = DockingStation.new
+#
+# 20.times { docking_station.dock Bike.new }
